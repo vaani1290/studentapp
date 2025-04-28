@@ -50,7 +50,7 @@ app.delete("/admin/deleteByEmail/:email",async(req,res)=>{
     res.json({msg:"student not found using this email"})
 })
 app.patch("/admin/updateByEmail/:email",(req,res)=>{
-    const sid=req.params
+    // const sid=req.params
 })
 app.listen(3001,()=>{
     console.log("express is running on"+3001);
